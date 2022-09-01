@@ -30,11 +30,11 @@
                 Text="Welcome to .NET Multi-platform App UI" />
 
             <Button
-                x:Name="CounterBtn"
-                Clicked="OnCounterClicked"
+                x:Name="PopupBtn"
+                Clicked="OnBtnClicked"
                 HorizontalOptions="Center"
                 SemanticProperties.Hint="Counts the number of times you click"
-                Text="Click me" />
+                Text="Open popup" />
 
         </VerticalStackLayout>
     </ScrollView>
